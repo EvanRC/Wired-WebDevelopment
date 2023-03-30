@@ -23,14 +23,17 @@ header{
    text-align: center;
   color: rgb(0, 248, 174);
   background-color: black;
+  /* adds style and fixed element to main header  */
  
 }
 
 
 nav{
      border: 10px solid rgb(255, 0, 140);  
+     border-radius: 20px;
      padding: 7px;
      width:100% ;
+     /* adds style to nav elements in header */
      
 }
 
@@ -40,6 +43,7 @@ display: flex;
 list-style: none;
 width: 100%;
 justify-content: space-between;
+/* adds space between nav elements */
 
 }
 
@@ -47,6 +51,7 @@ justify-content: space-between;
 a {
   color: cyan;
   font-size: 30px;
+  /* adds font style to nav elements */
 }
 
 div {
@@ -77,18 +82,22 @@ section {
   border: 20px double cyan;
   font-size: 30px;
   color:cyan;
+  /* adds style elements to main section */
   
 }
 
 p{
-border: 25px solid  rgb(255, 0, 140);
+border: 15px solid  rgb(255, 0, 140);
+border-radius: 20px;
 margin-block: 25px;
 padding: 20px;
+/* adds style to main text */
 
 }
 
 .container {
 background-color: black;
+/* changes background color for all main texts */
 
 }
  aside { 
@@ -99,13 +108,15 @@ background-color: black;
   justify-content: center;
  margin: 5%;
   padding:3%;
+  /* adds style to contact me section */
 }
 
 h2 {
+  margin-bottom: 15px;
   text-align: center;
   font-size: 45px;
   color: rgb(0, 248, 174);
-
+/* adds style to contact me header */
 }
 
 
@@ -118,12 +129,14 @@ form {
   border-radius: 20px;
   font-size: 25px;
   color: cyan;
+  /* styles form */
 }
 
 .form-wrapper {
   flex-direction: column;
   justify-content:center;
   align-items: start;
+  /* centers and stacks form */
 
 }
 
@@ -139,23 +152,27 @@ textarea {
 
 
 button {
- 
+ margin-top: 10px;
+ margin-left: 36%;
   height: 40px;
   width: 120px;
   background-color: rgb(0, 248, 174);
   color:black;
-  margin-bottom:
+ /* adss button style */
+
 }
 
 
 .text-center {
   text-align: center;
+  /* centers text for class */
 }
 
 
 
 .text-right {
   text-align: right;
+  /* moves text to the right class */
 
 }
 
